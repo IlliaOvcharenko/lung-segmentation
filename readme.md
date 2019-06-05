@@ -1,5 +1,5 @@
 # 🦉 Lung segmentation
----
+
 ## Data and task description
 ![data-example](images/data-example.png)
 
