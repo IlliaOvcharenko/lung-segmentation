@@ -1,0 +1,14 @@
+# Jyputer Notebook
+.ipynb_checkpoints
+
+# Byte-compiled
+__pycache__
+
+# Image dataset
+input
+
+# Model weights
+models/*
+!models/unet-2v.pt
+!models/unet-6v.pt
+
