@@ -16,8 +16,8 @@ class LungDataset(torch.utils.data.Dataset):
     
     def __getitem__(self, idx):
         origin_name, mask_name = self.origin_mask_list[idx]
-        origin = Image.open(self.origins_folder + origin_name + ".png").convert("P")
-        mask = Image.open(self.masks_folder + mask_name + ".png")
+        origin = Image.open(self.origins_folder / (origin_name + ".png")).convert("P")
+        mask = Image.open(self.masks_folder / (mask_name + ".png"))
         if self.transforms is not None:
             origin, mask = self.transforms((origin, mask))
             
