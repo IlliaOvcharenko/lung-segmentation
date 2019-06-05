@@ -12,3 +12,5 @@ models/*
 !models/unet-2v.pt
 !models/unet-6v.pt
 
+# Virtual Env
+venv
