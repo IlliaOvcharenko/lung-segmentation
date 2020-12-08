@@ -8,6 +8,7 @@ Overall amount of images is 800 meanwhile labeled only 704 of them.
 Whole dataset was randomly divided into train (0.8 of total) validation (0.1 splited from train) and test parts. Splits were saved into ```splits.pk```.
 
 The main task is to implement pixel-wise segmentation on the available data to detect lung area.
+Download link on the dataset https://drive.google.com/file/d/1ffbbyoPf-I3Y0iGbBahXpWqYdGd7xxQQ/view.
 
 ## Proposed solution
 The most obvious solution for semantic segmentation problems is UNet - fully convolutional network with an encoder-decoder path. High-resolution features from the contracting path are combined with the upsampled output in order to predict more precise output based on this information, which is the main idea of this architecture.
