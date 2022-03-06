@@ -1,4 +1,4 @@
-# Support Ukraine 🇺🇦
+# 🇺🇦 Support Ukraine
 ["how to" instruction](https://shard-cow-7b4.notion.site/HOW-YOU-CAN-SUPPORT-UKRAINE-0bef9f65892f45b79068ecc295b4e119)
 
 # 🦉 Lung segmentation
